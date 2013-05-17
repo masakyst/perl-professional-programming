@@ -78,11 +78,7 @@ Chapter01 -- Perlをはじめよう
   例えば, あるプロダクトの開発環境をperl-5.14.4から新しくインストールしたperl-5.16.3に変更するような場合
   下記の要領で、5.16.3側にモジュールを移行できるようです。
  
-  plenv migrate-modules 5.14.4 5.16.3
-
-  plenv関係の記事は、plenv作者tokuhiromさんと、papixさんの記事が大変有用です。  
-  http://blog.64p.org/entry/2013/01/23/081834   
-  http://blog.papix.net/entry/2013/01/21/210327  
+  >$ plenv migrate-modules 5.14.4 5.16.3
 
   asオプションを使い、定期的にアップデートする
 
@@ -102,6 +98,12 @@ Chapter01 -- Perlをはじめよう
   plenv install -j 4 5.18.0-RC4 -DDEBUGGING=-g がオススメです。  
   plenv install 5.18.0-RC4 -DDEBUGGING=-g -j 4 か  
   ~/.plenv/build/ が build directory になった
+
+  なお、plenv関係の記事は、plenv作者tokuhiromさんと、papixさんの記事が大変有用です。  
+  http://blog.64p.org/entry/2013/01/23/081834   
+  http://blog.papix.net/entry/2013/01/21/210327  
+
+
  
 
 ### 01-01-02 cpanmでライブラリを管理
