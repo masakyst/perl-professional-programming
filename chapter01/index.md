@@ -265,9 +265,12 @@ Chapter01 -- Perlをはじめよう
    * re.pl(Devel::REPL) use Mooseしているのが気にならなければ
    * pirl(Shell::Perl) 複数行入力できないので微妙
    * iperl(App::REPL) ベストと思いきや、評価順序に難あり？
+   * reply(Reply) ベスト!!!
 
    などがありあます。
-   個人的におすすめなのは、標準のperldebuggerです。
+   個人的に使いやすくおすすめなのは、Replyです。
+   
+   以下は、標準のperldebuggerの例です。
 
    >$ perl -de 1
 
